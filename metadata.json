@@ -1,0 +1,6 @@
+{
+  "name": "ប្រព័ន្ធចុះឈ្មោះសមាជិក និងភ្ញៀវថ្មី",
+  "description": "គ្រប់គ្រងព័ត៌មានសមាជិក រូបភាព និងការជូនដំណឹង Telegram ភ្លាមៗ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

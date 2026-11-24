@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Kantumruy Pro", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --color-brand-deep: #0f4c5c;
+  --color-brand-emerald: #136f63;
+  --color-brand-surface: #f4f7f7;
+}
+
+@layer base {
+  html {
+    font-family: "Kantumruy Pro", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    line-height: 1.65;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-family: inherit;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
